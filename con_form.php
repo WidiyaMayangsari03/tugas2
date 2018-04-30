@@ -77,13 +77,13 @@ class Con_form extends CI_Controller {
 	public function hapus_data()
 	{
 		$this->load->library('session');
-		$data[0] = "no";
-		$data[1] = "kode_mk";
-		$data[2] = "nama_mk";
-		$data[3] = "sks";
-		$data[4] = "uts";
-		$data[5] = "uas";
-		$data[6] = "tugas";
+// 		$data[0] = "no";
+// 		$data[1] = "kode_mk";
+// 		$data[2] = "nama_mk";
+// 		$data[3] = "sks";
+// 		$data[4] = "uts";
+// 		$data[5] = "uas";
+// 		$data[6] = "tugas";
 		//$data = array("no", "kode_mk", "nama_mk", "sks", "uts", "uas", "tugas");
 		unset($data[1]);
 		//session_unset('kode_mk');	//remove all
